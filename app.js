@@ -326,7 +326,7 @@ else{
 
 
 
-/*Question 5 */
+/*Question 6 */
 document.write(".................MARK SHEET................."+"<br>"+"<br>")
  var sub1 =prompt(" Enter first subject !")
  var sub2 =prompt(" Enter second subject !")
@@ -335,28 +335,66 @@ document.write(".................MARK SHEET................."+"<br>"+"<br>")
  var mak1 =prompt(" Enter marks for first subject ")
  var mak2 =prompt(" Enter marks for second subject ")
  var mak3 =prompt(" Enter marks for thire subject ")
- 
+ document.write(" Total "+" "+" Subject "+" "+" Percentage"+"<br>"+"<br>")
+
 document.write(tt+" "+sub1+" "+mak1/100+"<br>")
 document.write(tt+" "+sub2+" "+mak2/100+"<br>")
-document.write(tt+" "+sub3+" "+mak3/100+"<br>"  )
+document.write(tt+" "+sub3+" "+mak3/100+"<br>"+"<br>"  )
+
+
+/*............................Assignemnt 9-10 ................*/
+/*Question 1 welcome to city */
+document.write(".....................WELCOME TO CITY................."+"<br>"+"<br>")
+
+var city = prompt("Enter the city name !")
+if(city=="karachi"|| city=="KARACHI"){
+    
+document.write(" “Welcome to city of lights” "+"<br>"+"<br>")
+}
+else{
+    document.write(" You enterd "+city+"<br>"+"<br>")
+}
+
+
+/*Question 2 gender */
+document.write(".....................WELCOME sir / ma'am................."+"<br>"+"<br>")
+
+var gender = prompt("Enter your gender !")
+if(gender=="male"|| gender=="MALE"){
+    document.write(" “ Good Morning Sir.” "+"<br>"+"<br>")
+}
+else if(gender=="female"){
+    document.write("  Good Morning Ma'am."+"<br>"+"<br>")
+}
+
+/*Question 3 Trafic signal */
+document.write(".....................TRAFIC SIGNAL................."+"<br>")
+
+var trafic = prompt("Enter the color of the trafic signal !")
+document.write("COLOR "+" "+" MASSAGE"+"<br>")
+if(trafic=="red"|| trafic=="RED"){
+    document.write(trafic+" : "+" “ you must stop.” "+"<br>"+"<br>")
+}
+else if(trafic=="yellow"|| trafic=="YELLOW"){
+    document.write(trafic+" : "+" “ Ready to move” "+"<br>"+"<br>")
+}
+else if(trafic=="green"|| trafic=="GREEN"){
+    document.write(trafic+" : "+" “ Move now” "+"<br>"+"<br>")
+}
 
 
 
+/*Question 4 fule of car */
+document.write(".....................FULE OF CAR................."+"<br>")
 
+var fule = prompt("Enter the the current fule of your car! (In litters)")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+if(fule<="0.25"){
+    document.write(" Please refill the fuel in your car "+"<br>"+"<br>")
+}
+else{
+    document.write("Your fule is enough !")
+}
 
 
 
